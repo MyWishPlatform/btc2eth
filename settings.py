@@ -1,0 +1,4 @@
+FROM_PRIV = 'edd277837ffd504ebbe80df0647c86c10f078dc43c8cdb811e6f3ab1e400b55c'
+FROM_ADDR = '0x2605dd628e9466136718add604e383b4d7308eb5'
+TOKEN = '0x2298cDfdFa10d44c78B92842A021D3ef9C573e6e'
+ABI = [{"constant":True,"inputs":[],"name":"spend","outputs":[{"name":"","type":"uint256"}],"payable":False,"stateMutability":"view","type":"function"},             {"constant":False,"inputs":[{"name":"_beneficier","type":"address"},{"name":"_amount","type":"uint256"}],"name":"buyForBitcoin","outputs":[],"payable":        False,"stateMutability":"nonpayable","type":"function"},{"constant":True,"inputs":[],"name":"server","outputs":[{"name":"","type":"address"}],"payable":       False,"stateMutability":"view","type":"function"},{"anonymous":False,"inputs":[{"indexed":False,"name":"beneficier","type":"address"},{"indexed":False,        "name":"amount","type":"uint256"}],"name":"Minted","type":"event"}]
